@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Santosh Goyal - Expert Game Developer & XR Enthusiast specializing in Unity3D, C#, VR/AR/MR development. Creating immersive games and interactive experiences with cutting-edge technology.">
+    <meta name="keywords" content="Santosh Goyal, Game Developer, Unity Developer, Unity3D Expert, XR Developer, VR Developer, AR Developer, Mixed Reality Developer, C# Developer, Game Programmer, XR Technologies, Meta Quest Developer, NavMesh AI, Game Physics, 3D Game Development, Mobile Game Developer, VR Training Simulation, Game Development Portfolio, Indie Game Developer">
+    <meta name="author" content="Santosh Goyal">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Santosh Goyal | Game Developer & XR Enthusiast">
+    <meta property="og:description" content="Expert Game Developer specializing in Unity3D, VR/AR/MR development. Building immersive games and interactive experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://santoshgoyal.dev">
+    <meta property="og:image" content="https://santoshgoyal.dev/og-image.jpg">
+    <meta property="og:site_name" content="Santosh Goyal Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Santosh Goyal | Game Developer & XR Enthusiast">
+    <meta name="twitter:description" content="Expert Game Developer specializing in Unity3D, VR/AR/MR development.">
+    <meta name="twitter:image" content="https://santoshgoyal.dev/og-image.jpg">
+    <meta name="twitter:creator" content="@SantoshGoyal">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://santoshgoyal.dev">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <title>Santosh Goyal | Game Developer & XR Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- EmailJS for Contact Form -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("iDco2XdRQ4Sh_OpuH");
+        })();
+    </script>
+</head>
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-wrapper">
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <div class="loader-ring"></div>
+            <span class="loader-text">SG</span>
+        </div>
+        <p class="loading-percentage">0%</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" data-navbar>
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">Santosh</span>
+                <span class="logo-accent">Goyal</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <ul class="nav-menu" data-nav-menu>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </button>
+
+            <button class="hamburger" data-hamburger aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-greeting" data-aos="fade-up">Hi, my name is</p>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                    Santosh Goyal<span class="text-gradient">.</span>
+                </h1>
+                <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    I build <span class="text-gradient">immersive experiences</span> for the digital world.
+                </h2>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                    I'm a <strong>Game Developer</strong> and <strong>XR Enthusiast</strong> specializing in creating 
+                    optimized, high-performance games and extended reality experiences using Unity3D, C#, and cutting-edge technologies. 
+                    Currently mentoring the next generation of developers at <span class="text-gradient">Alliance University</span>.
+                </p>
+                <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="resume.pdf" download class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        <span>Download Resume</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+
+                <!-- Social Links -->
+                <div class="hero-social" data-aos="fade-right" data-aos-delay="500">
+                    <a href="https://github.com/Santosh-Goyal" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/santosh-goyal/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:santoshgoyal711@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <div class="social-line"></div>
+                </div>
+
+                <!-- Email -->
+                <div class="hero-email" data-aos="fade-left" data-aos-delay="500">
+                    <a href="mailto:santoshgoyal711@gmail.com">santoshgoyal711@gmail.com</a>
+                    <div class="email-line"></div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="600">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">
+                    About Me
+                    <span class="title-line"></span>
+                </h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-content">
+                        <p>
+                            Hello! I'm Santosh, a passionate <span class="highlight">Game Developer</span> and <span class="highlight">XR Enthusiast</span> 
+                            who specializes in creating immersive, high-performance games and extended reality experiences. 
+                            My journey started at <span class="highlight">Qneuro Pvt. Ltd.</span> where I built my foundation in Unity3D, 
+                            progressing from developing 2D/3D games to mastering <span class="highlight">game mechanics</span>, 
+                            <span class="highlight">physics simulation</span>, and <span class="highlight">AI pathfinding systems</span>.
+                        </p>
+                        <p>
+                            I expanded my expertise at <span class="highlight">ONE</span>, specializing in <span class="highlight">educational game development</span> 
+                            and <span class="highlight">WebGL optimization</span>, then advanced to <span class="highlight">SkilledSet</span> as an XR Developer, 
+                            where I worked with <span class="highlight">Meta VR technology</span>, <span class="highlight">AR navigation systems</span>, 
+                            and <span class="highlight">Mixed Reality</span> applications. This experience equipped me with deep knowledge in 
+                            <span class="highlight">gameplay programming</span>, <span class="highlight">rendering pipelines</span>, 
+                            <span class="highlight">performance optimization</span>, and <span class="highlight">cross-platform development</span>.
+                        </p>
+                        <p>
+                            Currently, I'm sharing my knowledge as a <span class="highlight">Game Developer Technical Mentor</span> 
+                            at <span class="highlight">Alliance University</span>, teaching advanced topics in Game Development and Extended Reality. 
+                            My expertise spans <span class="highlight">game architecture</span>, <span class="highlight">level design</span>, 
+                            <span class="highlight">animation systems</span>, <span class="highlight">shader programming</span>, 
+                            and <span class="highlight">multiplayer networking</span>.
+                        </p>
+                        <p class="tech-intro">Here are key technologies and skills I work with:</p>
+                        <ul class="tech-stack">
+                            <li><span>→</span> Unity3D & C# Programming</li>
+                            <li><span>→</span> VR/AR/MR Development (Meta Quest SDK)</li>
+                            <li><span>→</span> Game Physics & NavMesh AI</li>
+                            <li><span>→</span> Shader Programming (HLSL/ShaderGraph)</li>
+                            <li><span>→</span> Performance Optimization & Profiling</li>
+                            <li><span>→</span> Animation Systems & Character Controllers</li>
+                        </ul>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="about-stats">
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="stat-number" data-target="2">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="stat-number" data-target="20">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="stat-number" data-target="15">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image" data-aos="fade-left" data-aos-delay="200">
+                    <div class="image-wrapper">
+                        <div class="image-overlay"></div>
+                        <img src="profile.jpg" alt="Santosh Goyal" class="profile-img">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">
+                    Skills & Technologies
+                    <span class="title-line"></span>
+                </h2>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Game Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Game Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-unity skill-icon"></i>
+                                <span class="skill-name">Unity3D</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-atom skill-icon"></i>
+                                <span class="skill-name">Game Physics & Mechanics</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-route skill-icon"></i>
+                                <span class="skill-name">NavMesh AI & Pathfinding</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-running skill-icon"></i>
+                                <span class="skill-name">Animation Systems</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-tachometer-alt skill-icon"></i>
+                                <span class="skill-name">Performance Optimization</span>
+                                <span class="skill-percentage">87%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programming Languages -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-microsoft skill-icon"></i>
+                                <span class="skill-name">C#</span>
+                                <span class="skill-percentage">93%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 93%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-magic skill-icon"></i>
+                                <span class="skill-name">HLSL / ShaderLab</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-copyright skill-icon"></i>
+                                <span class="skill-name">C++</span>
+                                <span class="skill-percentage">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 78%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-java skill-icon"></i>
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">72%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 72%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- XR Technologies -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <i class="fas fa-vr-cardboard"></i>
+                        <h3>XR Technologies</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-vr-cardboard skill-icon"></i>
+                                <span class="skill-name">VR Development (Meta Quest)</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-mobile-alt skill-icon"></i>
+                                <span class="skill-name">AR Development</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-cube skill-icon"></i>
+                                <span class="skill-name">Mixed Reality</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-hand-pointer skill-icon"></i>
+                                <span class="skill-name">XR Interaction Toolkit</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Software -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Software</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-git-alt skill-icon"></i>
+                                <span class="skill-name">Git & Version Control</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-code skill-icon"></i>
+                                <span class="skill-name">Visual Studio</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-chart-line skill-icon"></i>
+                                <span class="skill-name">Unity Profiler</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-fire skill-icon"></i>
+                                <span class="skill-name">Firebase</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-figma skill-icon"></i>
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" style="--skill-width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">
+                    Where I've Worked & Learned
+                    <span class="title-line"></span>
+                </h2>
+            </div>
+
+            <div class="experience-container">
+                <!-- Experience Tabs -->
+                <div class="experience-tabs" data-aos="fade-right" data-aos-delay="100">
+                    <button class="tab-button active" data-tab="work">Work</button>
+                    <button class="tab-button" data-tab="education">Education</button>
+                    <div class="tab-indicator"></div>
+                </div>
+
+                <!-- Experience Content -->
+                <div class="experience-content" data-aos="fade-left" data-aos-delay="200">
+                    <!-- Work Tab -->
+                    <div class="tab-panel active" data-panel="work">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>Game Developer Technical Mentor <span class="company">@ Alliance University</span></h3>
+                                    <p class="timeline-date">July 2025 - Present</p>
+                                    <ul class="timeline-list">
+                                        <li>Teaching advanced topics in Game Development and Extended Reality (XR)</li>
+                                        <li>Mentoring students on Unity3D, C#, and VR/AR development</li>
+                                        <li>Developing curriculum and hands-on projects for practical learning</li>
+                                        <li>Guiding students in building portfolio-worthy game projects</li>
+                                    </ul>
+                                    <div class="tech-tags">
+                                        <span>Unity3D</span>
+                                        <span>C#</span>
+                                        <span>XR Development</span>
+                                        <span>Teaching</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>XR Developer <span class="company">@ SkilledSet</span></h3>
+                                    <p class="timeline-date">Feb 2024 - July 2025 | Bhubaneswar, Odisha</p>
+                                    <ul class="timeline-list">
+                                        <li>Deeply engaged with Meta VR technology, creating immersive worlds and captivating gameplay experiences for VR games</li>
+                                        <li>Continuously expanding expertise in AR development, working on an Android AR navigation application that integrates Google Map Tiles for real-world navigation</li>
+                                        <li>Contributing to a Mixed Reality project, designing an industrial virtual training program blending real and virtual environments</li>
+                                        <li>Staying at the forefront of immersive technology, pushing the boundaries of VR, AR, and Mixed Reality innovation</li>
+                                    </ul>
+                                    <div class="tech-tags">
+                                        <span>Meta VR</span>
+                                        <span>Unity</span>
+                                        <span>AR Development</span>
+                                        <span>Mixed Reality</span>
+                                        <span>Google Maps API</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>Game Developer Freelancer <span class="company">@ ONE</span></h3>
+                                    <p class="timeline-date">Jan 2024 - Mar 2024 | Sambalpur, Odisha</p>
+                                    <ul class="timeline-list">
+                                        <li>Specialized in designing and developing diverse 2D and 3D educational games aimed at enhancing student engagement</li>
+                                        <li>Honed expertise across full game development lifecycle, including narrative construction, level design, and character creation</li>
+                                        <li>Gained proficiency in optimizing WebGL projects for seamless performance on web platforms</li>
+                                        <li>Developed advanced skills in particle effects, creating visually immersive environments</li>
+                                    </ul>
+                                    <div class="tech-tags">
+                                        <span>Unity</span>
+                                        <span>C#</span>
+                                        <span>WebGL</span>
+                                        <span>Educational Games</span>
+                                        <span>2D/3D</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>Game Developer Intern <span class="company">@ Qneuro Pvt. Ltd.</span></h3>
+                                    <p class="timeline-date">Aug 2023 - Jan 2024 | Chennai, Tamil Nadu</p>
+                                    <ul class="timeline-list">
+                                        <li>Embarked on journey from foundational learning to gaining proficiency in Unity, developing variety of 2D and 3D games for Android, Windows, and WebGL</li>
+                                        <li>Advanced from scratch to creating optimized, high-performance games with smooth FPS across different devices</li>
+                                        <li>Gained hands-on experience with Shader Graph, NavMesh AI, 2D and 3D animation, and game physics</li>
+                                        <li>Built solid technical foundation and practical skills in Unity, growing from beginner to intermediate game developer</li>
+                                    </ul>
+                                    <div class="tech-tags">
+                                        <span>Unity</span>
+                                        <span>C#</span>
+                                        <span>NavMesh AI</span>
+                                        <span>Shader Graph</span>
+                                        <span>Multi-platform</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Tab -->
+                    <div class="tab-panel" data-panel="education">
+                        <div class="education-grid">
+                            <div class="education-card">
+                                <div class="edu-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3>Master of Computer Application</h3>
+                                <p class="edu-institution">Vellore Institute of Technology</p>
+                                <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu</p>
+                                <p class="edu-date">Sept 2022 - May 2024</p>
+                                <div class="edu-grade">CGPA: 9.03</div>
+                                <div class="edu-details">
+                                    <p>Focus: Advanced Game Development, XR Technologies, AI in Games</p>
+                                </div>
+                            </div>
+
+                            <div class="education-card">
+                                <div class="edu-icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <h3>Bachelor of Computer Application</h3>
+                                <p class="edu-institution">Pandit Ravishankar Shukla University</p>
+                                <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Raipur, Chhattisgarh</p>
+                                <p class="edu-date">June 2019 - May 2022</p>
+                                <div class="edu-grade">CGPA: 8.89</div>
+                                <div class="edu-details">
+                                    <p>Foundation in Computer Science, Game Programming Fundamentals</p>
+                                </div>
+                            </div>
+
+                            <div class="education-card cert-card">
+                                <div class="edu-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <h3>Professional Certifications</h3>
+                                <ul class="cert-list">
+                                    <li>
+                                        <strong>The Ultimate Guide to Game Development with Unity</strong>
+                                        <span>Udemy • Dec 2023</span>
+                                    </li>
+                                    <li>
+                                        <strong>The Foundation of Project Management</strong>
+                                        <span>Google • May 2023</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="education-card research-card">
+                                <div class="edu-icon">
+                                    <i class="fas fa-flask"></i>
+                                </div>
+                                <h3>Research Publications</h3>
+                                <div class="research-item">
+                                    <strong>Blockchain-Based Secure Cross Layer Design for WSN</strong>
+                                    <p>Proposed innovative security model integrating blockchain for Wireless Sensor Networks, enhancing data integrity and energy efficiency.</p>
+                                    <span class="research-date">Jan 2023 - July 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">
+                    Featured Projects
+                    <span class="title-line"></span>
+                </h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image project-video-container">
+                        <div class="project-overlay"></div>
+                        <video class="project-video" muted loop preload="metadata" poster="">
+                            <source src="Battle City.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-thumbnail thumbnail-battle">
+                            <div class="thumbnail-content">
+                                <i class="fas fa-tank"></i>
+                                <h4>Battle City</h4>
+                                <p>Tank Combat Game</p>
+                            </div>
+                        </div>
+                        <div class="video-play-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <a href="#">Battle City - Tank Shooter</a>
+                        </h3>
+                        <div class="project-description">
+                            <p>
+                                A strategic 2D tank combat game where players defend the master statue against waves of AI enemies. 
+                                Features advanced <strong>NavMesh AI</strong> for unpredictable enemy behavior, Different 
+                                Powerups for gameplay enhancement, and optimized performance for smooth gameplay.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Unity3D</li>
+                            <li>C#</li>
+                            <li>NavMesh AI</li>
+                            <li>Cinemachine</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Santosh-Goyal" target="_blank" class="project-link-btn" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card featured reverse" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image project-video-container">
+                        <div class="project-overlay"></div>
+                        <video class="project-video" muted loop preload="metadata" poster="">
+                            <source src="Safe Driving Simulation.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-thumbnail thumbnail-driving">
+                            <div class="thumbnail-content">
+                                <i class="fas fa-car-side"></i>
+                                <h4>Safe Driving</h4>
+                                <p>VR Training Simulation</p>
+                            </div>
+                        </div>
+                        <div class="video-play-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <a href="#">Safe Driving Simulation</a>
+                        </h3>
+                        <div class="project-description">
+                            <p>
+                                An immersive Virtual Reality training experience designed to cultivate mindful driving habits. 
+                                Built with Unity, this simulation challenges users to navigate industrial environments while adhering 
+                                to speed limits and safety protocols. It features a <strong>realistic vehicle cockpit</strong>, 
+                                <strong>interactive steering</strong>, and a <strong>dynamic HUD</strong> that tracks performance in real-time.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Unity</li>
+                            <li>C#</li>
+                            <li>VR Development</li>
+                            <li>Physics Simulation</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Santosh-Goyal" target="_blank" class="project-link-btn" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card featured" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image project-video-container">
+                        <div class="project-overlay"></div>
+                        <video class="project-video" muted loop preload="metadata" poster="">
+                            <source src="Soccer.IO.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-thumbnail thumbnail-soccer">
+                            <div class="thumbnail-content">
+                                <i class="fas fa-futbol"></i>
+                                <h4>Soccer.IO</h4>
+                                <p>Arcade Soccer Game</p>
+                            </div>
+                        </div>
+                        <div class="video-play-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">
+                            <a href="#">Soccer.IO - Arcade Soccer</a>
+                        </h3>
+                        <div class="project-description">
+                            <p>
+                                Hyper-casual 3D arcade soccer game for Android with 4v4 local multiplayer. 
+                                Features <strong>physics-based gameplay</strong>, customizable elements, 
+                                and mobile-optimized controls for engaging gameplay experiences.
+                            </p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Unity3D</li>
+                            <li>C#</li>
+                            <li>Android SDK</li>
+                            <li>Physics System</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/Santosh-Goyal/Soccer.IO-Test.git" target="_blank" class="project-link-btn" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- More Projects Grid -->
+            <div class="more-projects">
+                <h3 class="more-projects-title" data-aos="fade-up">Other Noteworthy Projects</h3>
+                <div class="small-projects-grid">
+                    <div class="small-project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="small-project-header">
+                            <div class="small-project-links">
+                                <a href="https://github.com/Santosh-Goyal/Dungeon-Escape-2.git"><i class="fab fa-github"></i></a>
+                                <a href="https://drive.google.com/drive/folders/1152ekZnFe_aKAlv8iDDztMIgq2E2TzlT?usp=drive_link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="small-project-title">Dungeon Escape - Action RPG</h4>
+                        <p class="small-project-description">
+                            2D action-RPG with tilemap design, multiple enemy types, and progressive difficulty. 
+                            Integrated Unity Ads for monetization.
+                        </p>
+                        <ul class="small-project-tech">
+                            <li>Unity2D</li>
+                            <li>C#</li>
+                            <li>Tilemap</li>
+                            <li>Unity Ads</li>
+                        </ul>
+                    </div>
+
+                    <div class="small-project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="small-project-header">
+                            <div class="small-project-links">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="https://drive.google.com/drive/folders/1152ekZnFe_aKAlv8iDDztMIgq2E2TzlT?usp=drive_link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="small-project-title">MR.Builder - VR Shopping</h4>
+                        <p class="small-project-description">
+                            Virtual Reality shopping experience using Meta All-In-One SDK. 
+                            Interactive PC component selection in immersive environment.
+                        </p>
+                        <ul class="small-project-tech">
+                            <li>Unity</li>
+                            <li>Meta SDK</li>
+                            <li>VR Interaction</li>
+                        </ul>
+                    </div>
+
+                    <div class="small-project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="small-project-header">
+                            <div class="small-project-links">
+                                <a href="https://github.com/Santosh-Goyal/Word-Game.git"><i class="fab fa-github"></i></a>
+                                <a href="https://drive.google.com/drive/folders/1152ekZnFe_aKAlv8iDDztMIgq2E2TzlT?usp=drive_link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h4 class="small-project-title">Puzzel Game</h4>
+                        <p class="small-project-description">
+                            It is a 2D puzzle game with multiple levels and challenging gameplay. 
+                            having a unique art style and engaging mechanics. The game features a 
+                            variety of puzzles that require players to think critically and 
+                            strategically to progress through the levels.
+                        </p>
+                        <ul class="small-project-tech">
+                            <li>Unity</li>
+                            <li>C#</li>
+                            <li>LightMap</li>
+                            <li>Visual Effects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-content" data-aos="fade-up">
+                <h2 class="contact-title">Get In Touch</h2>
+                <p class="contact-description">
+                    I'm currently looking for new opportunities and exciting projects. 
+                    Whether you have a question, want to collaborate, or just want to say hi, 
+                    my inbox is always open. I'll try my best to get back to you!
+                </p>
+
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-container" data-aos="fade-right" data-aos-delay="100">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">
+                                    <i class="fas fa-user"></i>
+                                    Your Name
+                                </label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">
+                                    <i class="fas fa-envelope"></i>
+                                    Your Email
+                                </label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">
+                                    <i class="fas fa-tag"></i>
+                                    Subject
+                                </label>
+                                <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">
+                                    <i class="fas fa-comment-dots"></i>
+                                    Message
+                                </label>
+                                <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                            
+                            <div id="form-status" class="form-status"></div>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info & Social -->
+                    <div class="contact-info" data-aos="fade-left" data-aos-delay="200">
+                        <div class="contact-info-card">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Email</h4>
+                                <a href="mailto:santoshgoyal711@gmail.com">santoshgoyal711@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+917325881188">+91-7325881188</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h4>Location</h4>
+                                <p>Bangalore, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4>Connect With Me</h4>
+                            <div class="contact-social-links">
+                                <a href="https://github.com/Santosh-Goyal" target="_blank" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/santosh-goyal/" target="_blank" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="https://calendly.com/santoshgoyal711" target="_blank" class="btn btn-outline schedule-call-btn">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Schedule a Call</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>Designed & Built by Santosh Goyal</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Santosh-Goyal" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/santosh-goyal/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:santoshgoyal711@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
